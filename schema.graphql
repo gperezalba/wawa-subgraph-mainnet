@@ -1,0 +1,7 @@
+type Transaction @entity {
+  id: ID!
+  from: Bytes!
+  to: Bytes!
+  amount: BigInt!
+  block: BigInt!
+}
